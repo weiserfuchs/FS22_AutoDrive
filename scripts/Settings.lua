@@ -546,6 +546,17 @@ AutoDrive.settings.pathFinderTime = {
     isVehicleSpecific = false
 }
 
+AutoDrive.settings.customLookAhead = {
+    values = {0.15, 0.25, 0.35, 0.5, 0.7, 1, 1.5, 2},
+    texts = {"x0.15", "x0.25", "x0.35", "x0.5", "x0.7", "x1.0", "x1.5", "x2"},
+    default = 4,
+    current = 4,
+    text = "gui_ad_customLookAhead",
+    tooltip = "gui_ad_customLookAhead_tooltip",
+    translate = true,
+    isVehicleSpecific = false
+}
+
 AutoDrive.settings.lineHeight = {
     values = {0, 4},
     texts = {"gui_ad_ground", "gui_ad_aboveDriver"},

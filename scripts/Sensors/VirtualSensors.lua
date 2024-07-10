@@ -309,7 +309,7 @@ function ADSensor:getBoxShape()
     box.center = {}
     box.size[1] = self.width * 0.5
     box.size[2] = boxHeight * 0.5
-    box.size[3] = lookAheadDistance * 0.5
+    box.size[3] = lookAheadDistance * AutoDrive.getSetting("customLookAhead") --* 0.5
     box.offset[1] = self.location.x
     box.offset[2] = boxYPos
     box.offset[3] = self.location.z

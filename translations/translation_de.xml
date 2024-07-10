@@ -156,6 +156,8 @@
 		<text name="gui_ad_avoidFruit_tooltip"					text="Drescherabfahrer versucht möglichst die Frucht zu umfahren" />
 		<text name="gui_ad_pathFinderTime"						text="Pfadfindungs-Faktor" />
 		<text name="gui_ad_pathFinderTime_tooltip"				text="Legt fest wie weit ein Abfahrer nach einer kollisionsfreien Strecke suchen darf. Sollte nur langsam erhöht werden wenn bei ausreichend Vorgewende die Fruchtumfahrung nicht funktioniert." />
+		<text name="gui_ad_customLookAhead"						text="Vorschau-Faktor" />
+		<text name="gui_ad_customLookAhead_tooltip"				text="Legt fest wie weit ein Abfahrer im Vorraus schaut. Die Basis ist die Länge des Gespanns und die Geschwindigkeit." />
 		<text name="gui_ad_lineHeight"							text="Linienhöhe" />
 		<text name="gui_ad_lineHeight_tooltip"					text="Linienhöhe im Editormodus wahlweise überm oder unterm Traktor" />
 		<text name="gui_ad_ground"								text="Bodenhöhe" />

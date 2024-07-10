@@ -27,6 +27,9 @@ function ADSpecialDrivingModule:stopVehicle(isBlocked, lx, lz)
     self.targetLX = lx
     self.targetLZ = lz
     self.vehicle.trailer = {}
+    if self.stoppedTimer.elapsedTime > 15000 and isBlocked ~= nil then
+        AutoDriveMessageEvent.sendNotification(self.vehicle, ADMessagesManager.messageTypes.INFO, "$l10n_AD_Driver_of; %s steht bereits  15s", 5000, self.vehicle.ad.stateModule:getName())
+    end
 end
 
 function ADSpecialDrivingModule:releaseVehicle()
